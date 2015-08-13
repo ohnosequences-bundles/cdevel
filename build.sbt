@@ -12,7 +12,5 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-
-"ohnosequences" %% "statika" % "2.0.0-SNAPSHOT",
-"com.lihaoyi"   %% "ammonite-ops" % "0.2.7"
+  "ohnosequences" %% "statika" % "2.0.0-SNAPSHOT"
 )
