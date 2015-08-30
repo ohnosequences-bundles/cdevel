@@ -12,5 +12,5 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "ohnosequences" %% "statika" % "2.0.0-SNAPSHOT"
+  "ohnosequences" %% "statika" % "2.0.0-new-instructions-SNAPSHOT"
 )
