@@ -4,10 +4,9 @@ package ohnosequencesBundles.statika
 
 import ohnosequences.statika._, bundles._, instructions._
 
-case object cdevel extends Bundle {
+case object cdevel extends Bundle() {
 
-  def install: Results = Seq("yum", "group", "install", "-y", "Development Tools") ->-
-		success(s"${bundleName} is installed")
+  def instructions: AnyInstructions = cmd("yum")("group", "install", "-y", "Development Tools")
 }
 
 ```
